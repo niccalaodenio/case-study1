@@ -1,0 +1,48 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.img{
+    height: 35vh!important;
+    width: 100%;
+    @media (max-width: 600px) {
+        height: 25vh!important;
+    }
+}
+
+.con{
+    position: relative;
+}
+
+.hello{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    right: 65%;
+    h1{
+        font-size: calc(3rem + 4vw);
+    }
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    place-items: center;  
+}
+ul > li{
+    list-style: none;
+}
+
+.card{
+    border: none!important;
+background-color: transparent !important;
+}
+
+.row{
+    background-color: rgba(211, 211, 211, 0.192);
+}
+q{
+    color: #FFF!important;
+}
